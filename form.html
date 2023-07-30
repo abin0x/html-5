@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        Welcome to jamaler ma pitha ghor
+    </h2>
+    <form>
+        <label for="name">Enter your name <input id="name" type="text" placeholder="Your name"></label>
+
+        <label for="email">Enter your email <input id="email" type="email" placeholder="Your email"></label>
+        <label for="phone">Enter your mobile <input id="phone" type="number" placeholder="Your phone number"></label>
+        <fieldset>
+            <legend>
+                pick one pitha
+            </legend>
+            <label for="cithoi">
+                <input type="radio" name="pitha" id="cithoi">
+                cithoi
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="coconut">
+                <input type="radio" name="pitha" id="coconut">
+                coconut
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                select one or more vortas
+            </legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">sorisa
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vorta" id="shutki">shutki
+            </label>
+            <label for="daler vorta">
+                <input type="checkbox" name="vorta" id="daler vorta">daler vorta
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                special instruction
+            </legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset me">
+        <input type="submit" value="submit">
+
+
+
+    </form>
+</body>
+
+</html>
